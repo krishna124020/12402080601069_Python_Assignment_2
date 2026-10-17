@@ -30,11 +30,3 @@ python 12402080601069_Assignment2_Q7.py samples/sensors.jsonl
 python 12402080601069_Assignment2_Q8.py < samples/matrix.txt
 python 12402080601069_Assignment2_Q9.py < samples/inventory.json
 python 12402080601069_Assignment2_Q10.py samples/marks.csv output_folder
-```
-
-## Database setup
-Create `assignment2` in MySQL and set `MYSQL_HOST`, `MYSQL_USER`, `MYSQL_PASSWORD`, and `MYSQL_DATABASE` environment variables. Q3 expects `student.csv` with `student_id,name,spi` and `registration.csv` with `student_id,course_id` in the current directory.
-
-Q2 expects product-card HTML using classes such as `product-card`, `product-name`, `price`, and `rating`; adapt selectors if your saved pages use different markup.
-
-The assignment requests sample, boundary, and at least three additional self-created tests per program. Review and test the programs against your faculty's expected interpretation before submission.
